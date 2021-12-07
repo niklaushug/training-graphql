@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "web-dev-server --open demo/ --node-resolve"
+  },
+  "dependencies": {
+    "keycloak-js": "^15.0.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.28",
+    "koa-proxies": "^0.12.1"
+  }
+}

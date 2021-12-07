@@ -1,0 +1,5 @@
+query AppQuery {
+  launchesPast(limit: 10) @client {
+    mission_name
+  }
+}
